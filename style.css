@@ -21,6 +21,7 @@
 	height: 500px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .jumbotron .container {
@@ -30,7 +31,6 @@
 
 .jumbotron h1 {
 	font-size: 48px;
-	font-family: sans-serif;
 	text-shadow: none;
 }
 
@@ -45,7 +45,7 @@
 
 #main h1 {
 	color: #fff;
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: bold;
 }
 
@@ -56,10 +56,12 @@
 /*REGISTER BAR*/
 .learn-more {
 	background-color:#f7f7f7;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-.learn-more h3 {
-	font-family: sans-serif;
+.learn-more h1 {
 	font-weight: bold;
 }
 
