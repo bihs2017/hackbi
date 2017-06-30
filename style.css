@@ -1,0 +1,74 @@
+/*NAVIGATION BAR*/
+.nav {
+	background-color:#f7f7f7;
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+/*JUMBOTRONS*/
+.jumbotron {
+	background-color: #f0f0f0;
+	height: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top:100px;
+}
+
+.jumbotron h1 {
+	font-size: 48px;
+	font-family: sans-serif;
+	text-shadow: none;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	text-shadow: none;
+}
+
+#main {
+	background-image:url('http://www.fullhdwpp.com/wp-content/uploads/Stars-Galaxies-Purple_www.FullHDWpp.com_.jpg');
+}
+
+#main h1 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#main p {
+	color: #fff;
+}
+
+/*REGISTER BAR*/
+.learn-more {
+	background-color:#f7f7f7;
+}
+
+.learn-more h3 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0ff;
+}
+
+/*PANELS*/
+
+.info-panels, .sponsors {
+	background-color: #fbfbfb;
+}
