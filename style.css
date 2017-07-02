@@ -42,8 +42,12 @@
 	margin-bottom: 20px;
 }
 
+.main {
+	margin-top: 20px;
+}
+
 .main .row {
-	background-image:url('peterGavel.PNG');
+	background-image: url('peterGavel.PNG');
 	color: #fff;
 }
 
