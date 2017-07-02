@@ -1,13 +1,12 @@
 /*NAVIGATION BAR*/
 .nav {
 	background-color:#f7f7f7;
+	padding: 20px;
 }
 
 .nav a {
 	color: #5a5a5a;
-	font-size: 11px;
-	font-weight: bold;
-	padding: 14px 10px;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 
@@ -15,50 +14,13 @@
 	display: inline;
 }
 
-/*JUMBOTRONS*/
-.jumbotron {
-	background-color: #f0f0f0;
-	height: 500px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-}
-
-.jumbotron .container {
-	position: relative;
-	top:100px;
-}
-
-.jumbotron h1 {
-	font-size: 48px;
-	text-shadow: none;
-}
-
-.jumbotron p {
-	font-size: 20px;
-	text-shadow: none;
-}
-
-#main {
-	background-image:url('http://www.fullhdwpp.com/wp-content/uploads/Stars-Galaxies-Purple_www.FullHDWpp.com_.jpg');
-}
-
-#main h1 {
-	color: #fff;
-	font-size: 100px;
-	font-weight: bold;
-}
-
-#main p {
-	color: #fff;
-}
-
 /*REGISTER BAR*/
 .learn-more {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	background-color:#f7f7f7;
 	padding-top: 20px;
 	padding-bottom: 40px;
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin-top: 20px;
 }
 
 .learn-more h1 {
@@ -71,6 +33,38 @@
 
 /*PANELS*/
 
-.info-panels, .sponsors {
-	background-color: #fbfbfb;
+.main .row, .info .row, .faq .row, .sponsors .row, .map .row {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main .row {
+	background-image:url('peterGavel.png');
+	color: #fff;
+}
+
+.main h1 {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.faq .qa {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.faq .qa h3:first-child {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.map #map {
+	height: 40vh;
+	margin: 20px;
 }
