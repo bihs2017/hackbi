@@ -65,7 +65,7 @@
 }
 
 .map #map {
-	height: 40vh;
+	height: 40vmin;
 	margin: 20px;
 	border-radius: 5px;
 }
