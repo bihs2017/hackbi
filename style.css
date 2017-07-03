@@ -40,7 +40,7 @@
 }
 
 .learn-more h1 {
-	font-family: raleway-bold;
+	font-family: raleway-bold, Helvetica, sans-serif;
 }
 
 .learn-more a {
@@ -68,7 +68,7 @@
 
 .main h1 {
 	font-size: 100px;
-	font-family: raleway-bold;
+	font-family: raleway-bold, Helvetica, sans-serif;
 }
 
 .faq .qa {
@@ -79,7 +79,7 @@
 }
 
 .faq .qa h3:first-child {
-	font-family: raleway-bold;
+	font-family: raleway-bold, Helvetica, sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -90,5 +90,5 @@
 }
 
 .map h2:first-child {
-	font-family: raleway-bold;
+	font-family: raleway-bold, Helvetica, sans-serif;
 }
