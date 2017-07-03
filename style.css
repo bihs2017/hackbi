@@ -1,6 +1,20 @@
+@font-face {
+  font-family: raleway-regular;
+  src: url('Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: raleway-bold;
+  src: url('Raleway-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*NAVIGATION BAR*/
 .nav {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: raleway-regular, Helvetica, sans-serif;
 	background-color: #f7f7f7;
 	padding: 20px;
 	padding-top: 25px;
@@ -18,7 +32,7 @@
 
 /*REGISTER BAR*/
 .learn-more {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: raleway-regular, Helvetica, sans-serif;
 	background-color: #f7f7f7;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -26,7 +40,7 @@
 }
 
 .learn-more h1 {
-	font-weight: bold;
+	font-family: raleway-bold;
 }
 
 .learn-more a {
@@ -35,7 +49,7 @@
 
 /*PANELS*/
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: raleway-regular, Helvetica, sans-serif;
 	background-color: #f0f0f0;
 	border-radius: 10px;
 	padding: 20px;
@@ -54,7 +68,7 @@
 
 .main h1 {
 	font-size: 100px;
-	font-weight: bold;
+	font-family: raleway-bold;
 }
 
 .faq .qa {
@@ -65,7 +79,7 @@
 }
 
 .faq .qa h3:first-child {
-	font-weight: bold;
+	font-family: raleway-bold;
 	margin-bottom: 20px;
 }
 
@@ -73,4 +87,8 @@
 	height: 40vmin;
 	margin: 20px;
 	border-radius: 5px;
+}
+
+.map h2:first-child {
+	font-family: raleway-bold;
 }
