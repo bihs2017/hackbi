@@ -15,15 +15,17 @@
 
 /**********NAVIGATION BAR**********/
 .nav {
-	font-family: raleway-regular, Helvetica, sans-serif;
-	background-color: #f7f7f7;
-	padding: 20px;
-	padding-top: 25px;
+	font-family: Consolas, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
 }
 
 .nav a {
 	color: #5a5a5a;
-	font-size: 20px;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 
@@ -31,48 +33,44 @@
 	display: inline;
 }
 
-/**********REGISTER BAR**********/
-.learn-more {
-	font-family: raleway-regular, Helvetica, sans-serif;
-	background-color: #f7f7f7;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	margin-top: 20px;
-}
-
-.learn-more h1 {
-	font-family: raleway-bold, Helvetica, sans-serif;
-}
-
-.learn-more a {
-	color: #00b0ff;
-}
-
 /**********PANELS**********/
 
 /*GENERAL*/
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
-	font-family: raleway-regular, Helvetica, sans-serif;
-	background-color: #f0f0f0;
-	border-radius: 10px;
+	font-family: Consolas, Helvetica, sans-serif;
+	/*background-color: #f7f7f7;
+	border-radius: 10px;*/
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
+.row h1 {
+	font-size: 2em;
+}
+
+.row h3 {
+	font-size: 1.5em;
+}
+
 /*MAIN*/
 .main {
-	margin-top: 20px;
+	background-image: url('peterGavel.PNG');
 }
 
 .main .row {
-	background-image: url('peterGavel.PNG');
 	color: #fff;
+	background-color: transparent;
 }
 
 .main h1 {
-	font-size: 100px;
-	font-family: raleway-bold, Helvetica, sans-serif;
+	font-size: 8em;
+	font-weight: bold;
 }
 
 /*INFO*/
@@ -81,11 +79,12 @@
 }
 
 .info h1 {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .info span {
-	font-family: raleway-bold, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .info .box {
@@ -95,7 +94,7 @@
 .info .items, .info .schedule {
 	text-align: left;
 	background-color: #fff;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 	padding: 20px;
 }
 
@@ -110,33 +109,25 @@
 /*FAQ*/
 .faq {
 	text-align: center;
+	background-color: #f7f7f7;
 }
 
 .faq .qa {
 	text-align: left;
 	background-color: #fff;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 	padding: 20px;
 	margin: 20px;
 }
 
 .faq .qa h3:first-child {
-	font-family: raleway-bold, Helvetica, sans-serif;
+	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
 
 .faq .qa h3:last-child {
 	margin-bottom: 0;
-}
-
-/*SPONSORS*/
-.sponsors {
-	text-align: center;
-}
-
-.sponsors .logos h1 {
-	padding-bottom: 20px;
 }
 
 /*MAP*/
@@ -146,9 +137,39 @@
 	background-color: #fff;
 	height: 40vmin;
 	margin: 20px;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 
-.map h2:first-child {
-	font-family: raleway-bold, Helvetica, sans-serif;
+.map h1:first-child {
+	font-weight: bold;
+}
+
+/*SPONSORS*/
+.sponsors {
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+.sponsors .row {
+	margin-bottom: 0;
+}
+
+.sponsors .logos h1 {
+	padding-bottom: 20px;
+}
+
+/**********REGISTER BAR**********/
+.learn-more {
+	font-family: Consolas, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.learn-more h1 {
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0ff;
 }
