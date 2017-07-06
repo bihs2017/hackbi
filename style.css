@@ -87,6 +87,16 @@
 	font-weight: bold;
 }
 
+.info:after {
+    content:"";
+    position: absolute;
+    z-index: 10;
+    top: 75%;
+    left: 50%;
+	height: 40%;
+    border-left: 1px solid #ddd;
+}
+
 .info .box {
 	margin-bottom: 20px;
 }
