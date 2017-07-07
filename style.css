@@ -105,7 +105,7 @@
 	border-right: 1px solid #ddd;
 }
 
-@media screen and (max-width: @screen-sm) {
+@media screen and (max-width: 800px) {
 	.info .box:first-child {
 		border-right-width: 0;
 		border-bottom: 1px solid #ddd;
