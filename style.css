@@ -87,7 +87,7 @@
 	font-weight: bold;
 }
 
-.info:after {
+/*.info:after {
     content:"";
     position: absolute;
     z-index: 10;
@@ -95,10 +95,21 @@
     left: 50%;
 	height: 40%;
     border-left: 1px solid #ddd;
-}
+}*/
 
 .info .box {
 	margin-bottom: 20px;
+}
+
+.info .box:first-child {
+	border-right: 1px solid #ddd;
+}
+
+@media screen and (max-width: @screen-sm) {
+	.info .box:first-child {
+		border-right-width: 0;
+		border-bottom: 1px solid #ddd;
+	}
 }
 
 .info .items, .info .schedule {
