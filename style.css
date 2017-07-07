@@ -189,6 +189,12 @@
 }
 
 /**********MOBILE FORMATTING**********/
+@media (max-width: 768px) {
+	body {
+		font-size: 24px;
+	}
+}
+
 @media (max-width: 991px) {
 	.info .box:first-child {
 		border-right-width: 0;
