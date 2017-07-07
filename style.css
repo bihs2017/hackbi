@@ -102,7 +102,7 @@
 }
 
 .info .box:first-child {
-	border-right: 1px solid #ddd;
+	border-right: 2px solid #ddd;
 }
 
 .info .items, .info .schedule {
@@ -191,14 +191,14 @@
 /**********MOBILE FORMATTING**********/
 @media (max-width: 768px) {
 	body {
-		font-size: 34px;
+		font-size: 24px;
 	}
 }
 
 @media (max-width: 991px) {
 	.info .box:first-child {
 		border-right-width: 0;
-		border-bottom: 1px solid #ddd;
+		border-bottom: 2px solid #ddd;
 	}
 	
 	.map .address {
