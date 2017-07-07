@@ -15,7 +15,7 @@
 
 /**********NAVIGATION BAR**********/
 .nav {
-	font-family: Consolas, Helvetica, sans-serif;
+	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	background-color: #f0f0f0;
 	padding-top: 20px;
 	padding-right: 25px;
@@ -42,7 +42,7 @@
 }
 
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
-	font-family: Consolas, Helvetica, sans-serif;
+	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	/*background-color: #f7f7f7;
 	border-radius: 10px;*/
 	padding: 20px;
@@ -174,7 +174,7 @@
 
 /**********REGISTER BAR**********/
 .learn-more {
-	font-family: Consolas, Helvetica, sans-serif;
+	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	background-color: #f0f0f0;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -189,13 +189,17 @@
 }
 
 /**********MOBILE FORMATTING**********/
-@media screen and (max-width: 768px) {
-	body {
-		font-size: 24px;
-	}
+@media screen and (max-width: 767px) {
+    /*body {
+        font-size: 0.9em;
+    }*/
 }
 
-@media (max-width: 1200px) {
+@media screen and (min-width: 768px) {
+    body {
+		font-size: 24px;
+	}
+	
 	.info .box:first-child {
 		border-right-width: 0;
 		border-bottom: 2px solid #ddd;
@@ -209,3 +213,22 @@
 		text-align: center;
 	}
 }
+
+/*@media screen and (max-width: 1200px) {
+	body {
+		font-size: 24px;
+	}
+	
+	.info .box:first-child {
+		border-right-width: 0;
+		border-bottom: 2px solid #ddd;
+	}
+	
+	.map .address {
+		text-align: center;
+	}
+	
+	.learn-more {
+		text-align: center;
+	}
+}*/
