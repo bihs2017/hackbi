@@ -105,13 +105,6 @@
 	border-right: 1px solid #ddd;
 }
 
-@media (max-width: 991px) {
-	.info .box:first-child {
-		border-right-width: 0;
-		border-bottom: 1px solid #ddd;
-	}
-}
-
 .info .items, .info .schedule {
 	text-align: left;
 	background-color: #fff;
@@ -193,4 +186,16 @@
 
 .learn-more a {
 	color: #00b0ff;
+}
+
+/**********MOBILE FORMATTING**********/
+@media (max-width: 991px) {
+	.info .box:first-child {
+		border-right-width: 0;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.map .address {
+		text-align: center;
+	}
 }
