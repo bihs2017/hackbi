@@ -197,6 +197,10 @@ body {
 	background-color: var(--register-color);
 }
 
+.learn-more:hover {
+	background-color: var(--register-color);
+}
+
 .learn-more h1 {
 	font-weight: bold;
 }
