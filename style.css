@@ -203,6 +203,7 @@ body {
 
 .learn-more a {
 	color: #fff;
+	text-decoration: none;
 }
 
 /**********DEVICE FORMATTING**********/
@@ -218,11 +219,11 @@ body {
 	}
 	
 	.row h1 {
-		font-size: 1.8em;
+		font-size: 2em;
 	}
 	
 	.row h3 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 	
 	.main .row {
@@ -231,7 +232,7 @@ body {
 	}
 	
 	.main h1 {
-		font-size: 4em;
+		font-size: 2em;
 	}
 	
 	.info .box:first-child {
@@ -241,6 +242,11 @@ body {
 	
 	.map .address {
 		text-align: center;
+	}
+	
+	.map #map {
+		height: 80vmin;
+		margin: auto;
 	}
 	
 	.sponsors h1 {
