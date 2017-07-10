@@ -1,11 +1,9 @@
-/*ARE WE GONNA DO ANIMATIONS OR SOMETHING OR IS THAT TOO EXTRA*/
-
 :root {
-	--theme-color-light: #f88;
+	--theme-color-light: #faa;
 	--theme-color: #f66;
-	--theme-color-dark: #f44;
-	--theme-color-very-dark: #f22;
+	--theme-color-dark: #f22;
 	--register-color: #3e8;
+	--panel-color: #f7f7f7;
 }
 
 /**********FONTS**********/
@@ -53,8 +51,6 @@
 
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
-	/*background-color: #f7f7f7;
-	border-radius: 10px;*/
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -71,10 +67,10 @@
 /*MAIN*/
 .main {
 	background-color: var(--theme-color);
-	background: -webkit-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
-	background: -o-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
-	background: -moz-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
-	background: linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
+	background: -webkit-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
+	background: -o-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
+	background: -moz-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
+	background: linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
 	/*background-image: url('peterGavel.PNG');*/
 	text-align: center;
 }
@@ -114,7 +110,6 @@
 .info .items, .info .schedule {
 	text-align: left;
 	background-color: #fff;
-	/*border-radius: 5px;*/
 	padding: 20px;
 }
 
@@ -129,20 +124,18 @@
 /*FAQ*/
 .faq {
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: var(--panel-color);
 }
 
 .faq .qa {
 	text-align: left;
 	background-color: #fff;
-	/*border-radius: 5px;*/
 	padding: 40px;
 	margin: 20px;
 }
 
 .faq .qa h3:first-child {
 	color: var(--theme-color);
-	/*font-weight: bold;*/
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -155,7 +148,7 @@
 .map #map {
 	color: #888;
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: var(--panel-color);
 	height: 40vmin;
 	margin: 20px;
 	/*border-radius: 5px;*/
@@ -172,7 +165,7 @@
 /*SPONSORS*/
 .sponsors {
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: var(--panel-color);
 }
 
 .sponsors .row {
@@ -190,7 +183,7 @@
 .learn-more {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	text-align: center;
-	background-color: /*#f0f0f0*/var(--theme-color);
+	background-color: var(--theme-color);
 	padding-top: 20px;
 	padding-bottom: 40px;
 	transition: background-color 0.4s;
@@ -218,7 +211,7 @@
 	
 	.info .box:first-child {
 		border-right-width: 0;
-		border-bottom: 2px solid /*#ddd*/var(--theme-color);
+		border-bottom: 2px solid var(--theme-color);
 	}
 	
 	.map .address {
@@ -237,7 +230,7 @@
 	}
 	
 	.info .box:first-child {
-		border-right: 2px solid /*#ddd*/var(--theme-color);
+		border-right: 2px solid var(--theme-color);
 		border-bottom-width: 0;
 	}
 	
@@ -253,7 +246,7 @@
 	}
 	
     .info .box:first-child {
-		border-right: 2px solid /*#ddd*/var(--theme-color);
+		border-right: 2px solid var(--theme-color);
 		border-bottom-width: 0;
 	}
 	
