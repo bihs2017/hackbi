@@ -6,6 +6,10 @@
 	--panel-color: #f7f7f7;
 }
 
+body {
+	min-width: 440px;
+}
+
 /**********FONTS**********/
 @font-face {
   font-family: raleway-regular;
@@ -19,10 +23,6 @@
   src: url('Raleway-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
-
-body {
-	min-width: 440px;
 }
 
 /**********NAVIGATION BAR**********/
@@ -219,11 +219,11 @@ body {
 	}
 	
 	.row h1 {
-		font-size: 2em;
+		font-size: 2.2em;
 	}
 	
 	.row h3 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 	
 	.main .row {
@@ -232,7 +232,7 @@ body {
 	}
 	
 	.main h1 {
-		font-size: 2em;
+		font-size: 4em;
 	}
 	
 	.info .box:first-child {
