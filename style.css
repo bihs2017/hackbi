@@ -251,6 +251,7 @@ body {
 	.map #map {
 		height: 80vmin;
 		margin: auto;
+		margin-top: 40px;
 	}
 	
 	.sponsors h1 {
