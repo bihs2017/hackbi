@@ -1,3 +1,10 @@
+/*ARE WE GONNA DO ANIMATIONS OR SOMETHING OR IS THAT TOO EXTRA*/
+
+:root {
+	--theme-color: #f66;
+	--theme-color-dark: #f44;
+}
+
 /**********FONTS**********/
 @font-face {
   font-family: raleway-regular;
@@ -60,7 +67,9 @@
 
 /*MAIN*/
 .main {
-	background-image: url('peterGavel.PNG');
+	background-color: var(--theme-color);
+	/*background-image: url('peterGavel.PNG');*/
+	text-align: center;
 }
 
 .main .row {
@@ -71,6 +80,9 @@
 .main h1 {
 	font-size: 8em;
 	font-weight: bold;
+	border: 10px solid #fff;
+	display: inline;
+	padding: 0 20px 0 20px;
 }
 
 /*INFO*/
@@ -79,6 +91,7 @@
 }
 
 .info h1 {
+	font-weight: bold;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -89,10 +102,6 @@
 
 .info .box {
 	margin-bottom: 20px;
-}
-
-.info .box:first-child {
-	border-right: 2px solid #ddd;
 }
 
 .info .items, .info .schedule {
@@ -125,7 +134,8 @@
 }
 
 .faq .qa h3:first-child {
-	font-weight: bold;
+	color: var(--theme-color);
+	/*font-weight: bold;*/
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -136,12 +146,16 @@
 
 /*MAP*/
 .map #map {
-	color: #aaa;
+	color: #888;
 	text-align: center;
-	background-color: #fff;
+	background-color: #f7f7f7;
 	height: 40vmin;
 	margin: 20px;
 	/*border-radius: 5px;*/
+}
+
+.map h4 {
+	padding-top: 40px;
 }
 
 .map h1:first-child {
@@ -158,17 +172,24 @@
 	margin-bottom: 0;
 }
 
-.sponsors .logos h1 {
-	padding-bottom: 20px;
+.sponsors .logos img {
+	display: block;
+	margin: auto;
+	max-height: 200px;
+	padding: 40px;
 }
 
 /**********REGISTER BAR**********/
 .learn-more {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	text-align: center;
-	background-color: #f0f0f0;
+	background-color: /*#f0f0f0*/var(--theme-color);
 	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+.learn-more:hover {
+	background-color: var(--theme-color-dark);
 }
 
 .learn-more h1 {
@@ -176,10 +197,10 @@
 }
 
 .learn-more a {
-	color: #00b0ff;
+	color: #fff;
 }
 
-/**********MOBILE FORMATTING**********/
+/**********DEVICE FORMATTING**********/
 
 /*PHONES*/
 @media screen and (max-width: 767px) {
@@ -189,7 +210,7 @@
 	
 	.info .box:first-child {
 		border-right-width: 0;
-		border-bottom: 2px solid #ddd;
+		border-bottom: 2px solid /*#ddd*/var(--theme-color);
 	}
 	
 	.map .address {
@@ -211,7 +232,7 @@
 	}
 	
     .info .box:first-child {
-		border-right: 2px solid #ddd;
+		border-right: 2px solid /*#ddd*/var(--theme-color);
 		border-bottom-width: 0;
 	}
 	
