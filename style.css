@@ -1,8 +1,10 @@
 /*ARE WE GONNA DO ANIMATIONS OR SOMETHING OR IS THAT TOO EXTRA*/
 
 :root {
+	--theme-color-light: #f88;
 	--theme-color: #f66;
 	--theme-color-dark: #f44;
+	--theme-color-very-dark: #f22;
 }
 
 /**********FONTS**********/
@@ -68,6 +70,10 @@
 /*MAIN*/
 .main {
 	background-color: var(--theme-color);
+	background: -webkit-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
+	background: -o-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
+	background: -moz-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
+	background: linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-very-dark));
 	/*background-image: url('peterGavel.PNG');*/
 	text-align: center;
 }
