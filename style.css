@@ -197,7 +197,7 @@ body {
 	background-color: var(--register-color);
 }
 
-.learn-more:hover {
+.learn-more:active {
 	background-color: var(--register-color);
 }
 
