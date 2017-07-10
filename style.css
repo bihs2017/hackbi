@@ -5,6 +5,7 @@
 	--theme-color: #f66;
 	--theme-color-dark: #f44;
 	--theme-color-very-dark: #f22;
+	--register-color: #3e8;
 }
 
 /**********FONTS**********/
@@ -135,7 +136,7 @@
 	text-align: left;
 	background-color: #fff;
 	/*border-radius: 5px;*/
-	padding: 20px;
+	padding: 40px;
 	margin: 20px;
 }
 
@@ -180,9 +181,9 @@
 
 .sponsors .logos img {
 	display: block;
-	margin: auto;
 	max-height: 200px;
 	padding: 40px;
+	margin: auto;
 }
 
 /**********REGISTER BAR**********/
@@ -192,10 +193,11 @@
 	background-color: /*#f0f0f0*/var(--theme-color);
 	padding-top: 20px;
 	padding-bottom: 40px;
+	transition: background-color 0.4s;
 }
 
 .learn-more:hover {
-	background-color: var(--theme-color-dark);
+	background-color: var(--register-color);
 }
 
 .learn-more h1 {
@@ -222,12 +224,25 @@
 	.map .address {
 		text-align: center;
 	}
+	
+	.sponsors .logos img {
+		max-height: 150px;
+	}
 }
 
 /*TABLETS*/
 @media screen and (min-width: 768px) {
     body {
 		font-size: 18px;
+	}
+	
+	.info .box:first-child {
+		border-right: 2px solid /*#ddd*/var(--theme-color);
+		border-bottom-width: 0;
+	}
+	
+	.sponsors .logos img {
+		max-height: 150px;
 	}
 }
 
