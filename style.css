@@ -10,21 +10,6 @@ body {
 	min-width: 440px;
 }
 
-/**********FONTS**********/
-@font-face {
-  font-family: raleway-regular;
-  src: url('Raleway-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: raleway-bold;
-  src: url('Raleway-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /**********NAVIGATION BAR**********/
 .nav {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
