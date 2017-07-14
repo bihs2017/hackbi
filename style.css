@@ -1,11 +1,15 @@
 :root {
-	--theme-color-light: #2ce5ff;
+	/*--theme-color-light: #2ce5ff;
 	--theme-color: #2c75ff;
-	--theme-color-dark: #2c05ff;
+	--theme-color-dark: #2c05ff;*/
 	
 	/*--theme-color-light: #fcc;
 	--theme-color: #f66;
 	--theme-color-dark: #f00;*/
+	
+	--theme-color-light: #fccdd5;
+	--theme-color: #fc8d95;
+	--theme-color-dark: #fc3d45;
 	
 	--register-color: #3d8;
 	--panel-color: #f7f7f7;
@@ -44,7 +48,7 @@ body {
 }
 
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
-	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -175,7 +179,7 @@ body {
 
 /**********REGISTER BAR**********/
 .learn-more {
-	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	text-align: center;
 	background-color: var(--theme-color);
 	padding-top: 20px;
