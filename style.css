@@ -48,7 +48,7 @@ body {
 }
 
 .main .row, .info .row, .faq .row, .sponsors .row, .map .row {
-	font-family: Helvetica, sans-serif;
+	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	padding: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -180,7 +180,7 @@ body {
 
 /**********REGISTER BAR**********/
 .learn-more {
-	font-family: Helvetica, sans-serif;
+	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	text-align: center;
 	background-color: var(--theme-color);
 	padding-top: 20px;
