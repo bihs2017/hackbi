@@ -69,7 +69,8 @@ body {
 	background: -o-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
 	background: -moz-linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
 	background: linear-gradient(135deg, var(--theme-color-light) , var(--theme-color-dark));
-	/*background-image: url('peterGavel.PNG');*/
+	/*background-image: url('peterGavel.PNG');
+	background-size: cover;*/
 	text-align: center;
 }
 
@@ -272,6 +273,10 @@ body {
 		border-bottom-width: 0;
 	}
 	
+	.map #map {
+		height: 60vmin;
+	}
+	
 	.sponsors .logos img {
 		max-height: 150px;
 	}
@@ -294,5 +299,9 @@ body {
 	
 	.map .address {
 		text-align: left;
+	}
+	
+	.map #map {
+		height: 40vmin;
 	}
 }
