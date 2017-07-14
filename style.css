@@ -1,7 +1,12 @@
 :root {
-	--theme-color-light: #faa;
+	--theme-color-light: #2ce5ff;
+	--theme-color: #2c75ff;
+	--theme-color-dark: #2c05ff;
+	
+	/*--theme-color-light: #fcc;
 	--theme-color: #f66;
-	--theme-color-dark: #f22;
+	--theme-color-dark: #f00;*/
+	
 	--register-color: #3d8;
 	--panel-color: #f7f7f7;
 }
