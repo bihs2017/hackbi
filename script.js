@@ -1,3 +1,4 @@
+//makes .schedule and .items same height
 function fixScheduleAndItemsHeight() {
 	$heightToSet = Math.max($('.schedule').outerHeight(), $('.items').outerHeight());
 	$('.schedule').css('height', $heightToSet);
@@ -15,6 +16,7 @@ function updateHideShow() {
 }
 
 $(document).ready(function() {
+	alert("hi");
 	fixScheduleAndItemsHeight();
 	updateHideShow();
 	$(window).scroll( function() {
