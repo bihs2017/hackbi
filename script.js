@@ -1,10 +1,26 @@
 //makes .schedule and .items same height
 function fixScheduleAndItemsHeight() {
+	$heightToSet = Math.max($('.schedule').outerHeight(), $('.items').outerHeight());
+	$('.schedule').css('height', $heightToSet);
+	$('.items').css('height', $heightToSet);
+}
+
+function preventAccidentalMapScroll() {
+	$('#map').addClass('scrolloff');
+	
+	$('#map-container').on('click', function () {
+		$('#map').removeClass('scrolloff');
+	});
+	$("#map").mouseleave(function () {
+		$('#map').addClass('scrolloff');
+	});
+}
+
+function formatForMobile() {
 	$screenWidth = $(window).width();
 	if ($screenWidth >= 768) {
-		$heightToSet = Math.max($('.schedule').outerHeight(), $('.items').outerHeight());
-		$('.schedule').css('height', $heightToSet);
-		$('.items').css('height', $heightToSet);
+		fixScheduleAndItemsHeight();
+		preventAccidentalMapScroll();
 	}
 }
 
@@ -19,18 +35,9 @@ function updateHideShow() {
 }
 
 $(document).ready(function() {
-	fixScheduleAndItemsHeight();
+	formatForMobile();
 	updateHideShow();
-	$('#map').addClass('scrolloff');
-	
-	$(window).scroll( function() {
+	$(window).scroll(function() {
 		updateHideShow();
-	});
-	
-	$('#map-container').on('click', function () {
-		$('#map').removeClass('scrolloff');
-	});
-	$("#map").mouseleave(function () {
-		$('#map').addClass('scrolloff');
 	});
 });
