@@ -1,3 +1,9 @@
+function fixScheduleAndItemsHeight() {
+	$heightToSet = Math.max($('.schedule').outerHeight(), $('.items').outerHeight());
+	$('.schedule').css('height', $heightToSet);
+	$('.items').css('height', $heightToSet);
+}
+
 function updateHideShow() {
 	$('.hideme').each( function(i) {
 		var bottom_of_object = $(this).offset().top + ($(this).outerHeight() / 2);
@@ -9,6 +15,7 @@ function updateHideShow() {
 }
 
 $(document).ready(function() {
+	fixScheduleAndItemsHeight();
 	updateHideShow();
 	$(window).scroll( function() {
 		updateHideShow();
