@@ -21,8 +21,10 @@ body {
 
 .hideme {
 	opacity:0;
-	-webkit-transition: all 1s;
-	transition: all 1s;
+	-webkit-transition: opacity 1s, top 1s;
+	-moz-transition: opacity 1s, top 1s;
+	-o-transition: opacity 1s, top 1s;
+	transition: opacity 1s, top 1s;
 	position: relative;
 	top: 20px;
 }
@@ -158,13 +160,22 @@ body {
 }
 
 /*MAP*/
+.scrolloff {
+	pointer-events: none ;
+}
+
+.map .address {
+	text-align: center;
+}
+
 .map #map {
 	color: #888;
 	text-align: center;
 	background-color: var(--panel-color);
 	height: 40vmin;
-	margin: 20px;
-	/*border-radius: 5px;*/
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .map h4 {
@@ -253,14 +264,8 @@ body {
 		border-bottom: 2px solid var(--theme-color);
 	}
 	
-	.map .address {
-		text-align: center;
-	}
-	
 	.map #map {
 		height: 80vmin;
-		margin: auto;
-		margin-top: 40px;
 	}
 	
 	.sponsors h1 {
@@ -275,7 +280,7 @@ body {
 /*TABLETS*/
 @media screen and (min-width: 768px) {
     body {
-		font-size: 18px;
+		font-size: 19px;
 	}
 	
 	.main .row {
@@ -288,7 +293,7 @@ body {
 	}
 	
 	.map #map {
-		height: 60vmin;
+		height: 80vmin;
 	}
 	
 	.sponsors .logos img {
@@ -311,11 +316,7 @@ body {
 		border-bottom-width: 0;
 	}
 	
-	.map .address {
-		text-align: left;
-	}
-	
 	.map #map {
-		height: 40vmin;
+		height: 60vmin;
 	}
 }

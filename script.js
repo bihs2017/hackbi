@@ -21,7 +21,16 @@ function updateHideShow() {
 $(document).ready(function() {
 	fixScheduleAndItemsHeight();
 	updateHideShow();
+	$('#map').addClass('scrolloff');
+	
 	$(window).scroll( function() {
 		updateHideShow();
+	});
+	
+	$('#map-container').on('click', function () {
+		$('#map').removeClass('scrolloff');
+	});
+	$("#map").mouseleave(function () {
+		$('#map').addClass('scrolloff');
 	});
 });
