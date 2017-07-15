@@ -19,6 +19,20 @@ body {
 	min-width: 440px;
 }
 
+.hideme {
+	opacity:0;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	position: relative;
+	top: 40px;
+}
+
+.showme {
+	opacity:1 !important;
+	position: relative;
+	top: 0;
+}
+
 /**********NAVIGATION BAR**********/
 .nav {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
