@@ -189,7 +189,8 @@ body {
 /*SPONSORS*/
 .sponsors {
 	text-align: center;
-	background-color: var(--panel-color);
+	/*background-color: var(--panel-color);*/
+	background-color: white;
 }
 
 .sponsors .row {
