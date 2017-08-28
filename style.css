@@ -219,10 +219,6 @@ body {
 		font-size: 20px;
 	}
 	
-	.nav {
-		display: none;
-	}
-	
 	.row h1 {
 		font-size: 2.2em;
 	}
@@ -292,7 +288,7 @@ body {
 		padding-bottom: 10em;
 	}
 	
-    .info .box:first-child {
+        .info .box:first-child {
 		border-right: 2px solid var(--theme-color);
 		border-bottom-width: 0;
 	}
