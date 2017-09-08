@@ -140,10 +140,6 @@ body {
 }
 
 /*MAP*/
-.scrolloff {
-	pointer-events: none ;
-}
-
 .map .address {
 	text-align: center;
 }
