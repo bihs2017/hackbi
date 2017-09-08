@@ -194,11 +194,15 @@ body {
 	transition: background-color 0.4s;
 }
 
-.learn-more:hover {
+#bottom-bar {
+	background-color: var(--panel-color);
+}
+
+#register:hover {
 	background-color: var(--register-color);
 }
 
-.learn-more:active {
+#register:active {
 	background-color: var(--register-color);
 }
 
