@@ -5,22 +5,10 @@ function fixScheduleAndItemsHeight() {
 	$('.items').css('height', $heightToSet);
 }
 
-/*function preventAccidentalMapScroll() {
-	$('#map').addClass('scrolloff');
-	
-	$('#map-container').on('click', function () {
-		$('#map').removeClass('scrolloff');
-	});
-	$("#map").mouseleave(function () {
-		$('#map').addClass('scrolloff');
-	});
-}*/
-
 function formatForMobile() {
 	$screenWidth = $(window).width();
 	if ($screenWidth >= 768) {
 		fixScheduleAndItemsHeight();
-		preventAccidentalMapScroll();
 	}
 }
 
