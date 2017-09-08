@@ -5,7 +5,7 @@ function fixScheduleAndItemsHeight() {
 	$('.items').css('height', $heightToSet);
 }
 
-function preventAccidentalMapScroll() {
+/*function preventAccidentalMapScroll() {
 	$('#map').addClass('scrolloff');
 	
 	$('#map-container').on('click', function () {
@@ -14,7 +14,7 @@ function preventAccidentalMapScroll() {
 	$("#map").mouseleave(function () {
 		$('#map').addClass('scrolloff');
 	});
-}
+}*/
 
 function formatForMobile() {
 	$screenWidth = $(window).width();
