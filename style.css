@@ -286,7 +286,7 @@ body {
 /*COMPUTERS*/
 @media screen and (min-width: 992px) {
 	body {
-		font-size: 16px;
+		font-size: 12px;
 	}
 	
 	.main .row {
