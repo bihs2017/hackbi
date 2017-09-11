@@ -190,9 +190,9 @@ body {
 	transition: background-color 0.4s;
 }
 
-#bottom-bar {
-	color: #888;
-	background-color: var(--panel-color);
+#register {
+	padding-top: 40px;
+	padding-bottom: 60px;
 }
 
 #register:hover {
@@ -210,6 +210,11 @@ body {
 .learn-more a {
 	color: #fff;
 	text-decoration: none;
+}
+
+#bottom-bar {
+	color: #888;
+	background-color: var(--panel-color);
 }
 
 #bottom-bar a {
