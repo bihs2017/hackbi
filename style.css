@@ -185,8 +185,7 @@ body {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	text-align: center;
 	background-color: var(--theme-color);
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding: 20px;
 	transition: background-color 0.4s;
 }
 
