@@ -214,7 +214,7 @@ body {
 	color: #888;
 	background-color: var(--panel-color);
 	padding-top: 20px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 #bottom-bar a {
