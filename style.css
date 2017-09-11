@@ -185,7 +185,6 @@ body {
 	font-family: Consolas, 'Andale Mono', Helvetica, sans-serif;
 	text-align: center;
 	background-color: var(--theme-color);
-	padding: 20px;
 	transition: background-color 0.4s;
 }
 
@@ -214,6 +213,8 @@ body {
 #bottom-bar {
 	color: #888;
 	background-color: var(--panel-color);
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #bottom-bar a {
